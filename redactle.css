@@ -1,7 +1,17 @@
 .header {
-    text-align: center;
-    color: blue;
-  }
-  .article-div {
-    color: red
-  }
+  text-align: center;
+  color: blue;
+}
+.article-div {
+  color: red;
+}
+.guesslist {
+  visibility: hidden;
+}
+.guess {
+  visibility: visible;
+  border-style: solid;
+  border-radius: 20px;
+  padding: 10px;
+  display: inline-block;
+}
